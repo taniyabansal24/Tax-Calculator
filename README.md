@@ -22,6 +22,10 @@ This Tax Calculator is a simple web application built using HTML, CSS, and JavaS
 2. Input your gross annual income, extra income (if any), deductions (if any), and select your age bracket.
 3. Click on the "Calculate Tax" button to see the overall income after tax deduction.
 
+### Tests:
+1. Responsive Design Test - ![Tests Passing](https://github.com/taniyabansal24/Tax-Calculator/blob/main/Responsive%20Design%20Test.png)
+
+
 #### Additional Information:
 
 - The Tax Calculator utilizes Bootstrap for styling and layout.
