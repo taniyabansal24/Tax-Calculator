@@ -23,7 +23,10 @@ This Tax Calculator is a simple web application built using HTML, CSS, and JavaS
 3. Click on the "Calculate Tax" button to see the overall income after tax deduction.
 
 ### Tests:
-1. Responsive Design Test - ![Tests Passing](https://github.com/taniyabansal24/Tax-Calculator/blob/main/Responsive%20Design%20Test.png)
+1. Input Validation Test - ![Tests Passing](https://github.com/taniyabansal24/Tax-Calculator/blob/main/Input%20Validation%20Test.png)
+2. Tax Calculator Test - ![Tests Passing](https://github.com/taniyabansal24/Tax-Calculator/blob/main/calculator%20checking%201.png) (https://github.com/taniyabansal24/Tax-Calculator/blob/main/calculator%20checking%202.png)
+3. Edge Cases Test - ![Tests Passing] (https://github.com/taniyabansal24/Tax-Calculator/blob/main/1.png) (https://github.com/taniyabansal24/Tax-Calculator/blob/main/2.png)
+4. Responsive Design Test - ![Tests Passing](https://github.com/taniyabansal24/Tax-Calculator/blob/main/Responsive%20Design%20Test.png)
 
 
 #### Additional Information:
