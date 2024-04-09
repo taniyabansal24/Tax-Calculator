@@ -1,0 +1,120 @@
+/* styles.css */
+
+/* Increase space between form elements */
+.form-group {
+    margin-bottom: 20px;
+    position: relative; /* Add relative positioning to the form-group */
+}
+
+/* Error icon styles */
+.error-icon {
+    display: none; /* Hide error icon by default */
+}
+
+.error-icon span {
+    position: absolute;
+    top: 73%;
+    right: 10px;
+    font-size: 25px;
+    transform: translateY(-50%);
+}
+
+/* Tooltip styles */
+.tooltip {
+    position: absolute;
+    top: -27%;
+    right: -7px;
+    border: 1px solid black;
+    font-size: 10px;
+    transform: translateY(44%);
+    padding: 5px;
+    display: none; /* Initially hide the tooltip */
+}
+.tooltip-text {
+    position: absolute;
+    top: -27%;
+    right: -7px;
+    font-size: 10px;
+    transform: translateY(44%);
+    padding: 5px;
+    background: #6d6c6c;
+    color: #fff;
+    opacity: 0;
+    pointer-events: none;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.error-icon:hover .tooltip-text{
+    opacity: 1;
+    pointer-events: auto;
+}
+.error-icon .tooltip-text::before{
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    background: #6d6c6c;
+    left: 80%;
+    bottom: -8px;
+    transform: translateX(-50%) rotate(45deg);
+    transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.error-icon .span:hover{
+    color: black;
+}
+
+/* styles.css */
+/* styles.css */
+
+/* Styling for the result container */
+.result-container {
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 20px;
+    position: absolute;
+    display: none; /* Initially hide the result container */
+    z-index: 1000; /* Ensure it appears above other elements */
+    width: 100%;
+    height: 100%;
+    max-height: 453px; /* Limit the maximum width */
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+/* Styling for result container when opened */
+.result-container.open {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.result-container {
+    top: 30px;
+    background-color: #f8f9fa; /* Light gray background */
+    border: 1px solid #ced4da; /* Gray border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 15px;
+    margin-top: 20px; 
+}
+
+.result-container p {
+        font-size: 44px;
+}
+
+/* Optional: Add some additional styling for better visibility */
+.result-container p.lead {
+    font-weight: bold; /* Bold text for lead paragraph */
+}
+
+
+
+/* Make form elements responsive */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+}
